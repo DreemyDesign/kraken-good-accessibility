@@ -42,11 +42,11 @@ header p {
   font-style: italic;
 }
 
-article main {
+main article {
   padding: 1rem;
 }
 
-article header {
+main header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,11 +119,11 @@ article p {
   text-indent: 1.3em;
 }
 
-article main :first-child {
+article :first-child {
   text-indent: 0;
 }
 
-article main :first-child::first-line {
+article :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
