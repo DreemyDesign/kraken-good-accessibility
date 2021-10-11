@@ -25,7 +25,7 @@ img {
 
 header {
   background-image: url("../images/anchors.svg");
-  color: #fff;
+  color: #FFF;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: normal;
@@ -42,7 +42,7 @@ header p {
   font-style: italic;
 }
 
-article div {
+article main {
   padding: 1rem;
 }
 
@@ -53,7 +53,7 @@ article header {
   background-color: #259f95;
   background-image: none;
   border-radius: 0 0 6px 6px;
-  color: #fff;
+  color: #FFF;
 }
 
 h1 {
@@ -119,11 +119,11 @@ article p {
   text-indent: 1.3em;
 }
 
-article div :first-child {
+article main :first-child {
   text-indent: 0;
 }
 
-article div :first-child::first-line {
+article main :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
@@ -148,7 +148,7 @@ article footer {
   background-color: #259f95;
   background-image: none;
   border-radius: 6px 6px 0 0;
-  color: #fff;
+  color: #FFF;
 }
 
 footer {
@@ -156,5 +156,5 @@ footer {
   justify-content: center;
   padding: 1rem;
   background-image: url("../images/anchors.svg");
-  color: #fff;
+  color: #FFF;
 }
